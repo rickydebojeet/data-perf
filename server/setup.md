@@ -1,3 +1,5 @@
+# Setup
+
 1. Install apache in the machine.
 2. Change the port of the apache sever to 8080.
 3. Install php in the machine. Make sure that php is working.
