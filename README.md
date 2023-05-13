@@ -14,13 +14,13 @@ curl http://<ip>:8080/dockerStart.php?memory=<memory-size>m&swap=<swap-size>g&cp
 - Test Container:
 
 ```Console
-http://<ip>/server.php?size=<io-size>&cpuLoad=<cpu-load>
+curl http://<ip>/server.php?size=<io-size>&cpuLoad=<cpu-load>
 ```
 
 - Stop contatiner:
 
 ```Console
-http://<ip>:8080/dockerStop.php?name=<container-name>
+curl http://<ip>:8080/dockerStop.php?name=<container-name>
 ```
 
 - For load testing using httperf:
